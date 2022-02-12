@@ -1,6 +1,7 @@
 English | [简体中文](./README-zh.md)
 
-[![Test](https://github.com/originjs/webpack-to-vite/actions/workflows/test.yml/badge.svg)](https://github.com/originjs/webpack-to-vite/actions/workflows/test.yml/) [<img src="https://img.shields.io/npm/v/@originjs/webpack-to-vite" alt="npm" />](https://www.npmjs.com/package/@originjs/webpack-to-vite)
+[![Test](https://github.com/originjs/webpack-to-vite/actions/workflows/test.yml/badge.svg)](https://github.com/originjs/webpack-to-vite/actions/workflows/test.yml/) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FChieffo2021%2Fwebpack-to-vite.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FChieffo2021%2Fwebpack-to-vite?ref=badge_shield)
+[<img src="https://img.shields.io/npm/v/@originjs/webpack-to-vite" alt="npm" />](https://www.npmjs.com/package/@originjs/webpack-to-vite)
 
 # Webpack to Vite
 convert a webpack project to a vite project.<br/>
@@ -354,3 +355,7 @@ Legend of annotations:
 * ⚠️ O09: if you encountered build error `[rollup-plugin-dynamic-import-variables] Unexpected token`, you need to remove empty attr `srcset` or `srcset=""` in `<img>` label.
 * ⚠️ O10: Vite can't resolve some static asset, e.g. `.PNG`, you can put it in `assetsInclude` option like `assetsInclude: ['**.PNG']`
 * ⚠️ O11: support `.md` markdown file as vue component, you need to add [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md) plugin.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FChieffo2021%2Fwebpack-to-vite.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FChieffo2021%2Fwebpack-to-vite?ref=badge_large)
