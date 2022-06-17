@@ -43,8 +43,7 @@ test('webpack-to-vite -h, --help', () => {
 
 test('webpack-to-vite -d, --rootDir <path>', () => {
   mkdirSync('./out-rootDir-webpack', { recursive: true })
-  const { stdout, status } = runSync(['-d', './out-rootDir-webpack'])
-  console.log(stdout)
+  const { status } = runSync(['-d', './out-rootDir-webpack'])
   expect(existsSync('./out-rootDir-webpack-toVite')).toEqual(true)
   expect(status).toEqual(0)
 })
@@ -58,6 +57,6 @@ test('webpack-to-vite -c, --cover', () => {
   ])
   expect(existsSync('./out-cover-webpack-toVite')).toEqual(
     false
-  )  
+  )
   expect(status).toEqual(0)
 })
